@@ -1,0 +1,17 @@
+com.zego.zegoavkit2
+com.zego.zegoavkit2.appinfo
+com.zego.zegoavkit2.hardwaremonitor
+com.zego.zegoavkit2.log
+com.zego.zegoavkit2.receiver
+com.zego.zegoavkit2.screencapture
+com.zego.zegoavkit2.screencapture.ve_gl
+com.zego.zegoavkit2.utils
+com.zego.zegoavkit2.videocapture
+im.zego.connection
+im.zego.internal.screencapture
+im.zego.zegoexpress
+im.zego.zegoexpress.callback
+im.zego.zegoexpress.constants
+im.zego.zegoexpress.entity
+im.zego.zegoexpress.internal
+im.zego.zegoexpress.utils
