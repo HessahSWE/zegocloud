@@ -18,7 +18,7 @@ class CallPageState extends State<CallPage> {
   @override
   Widget build(BuildContext context) {
     final arguments = (ModalRoute.of(context)?.settings.arguments ?? <String, String>{}) as Map<String, String>;
-    final callID = arguments[PageParam.call_id] ?? '';
+    final callID = arguments[PageParam.callId] ?? '';
 
     return SafeArea(
       child: ZegoUIKitPrebuiltCall(

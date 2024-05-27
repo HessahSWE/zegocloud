@@ -5,7 +5,6 @@ import 'package:flutter/services.dart';
 // Package imports:
 import 'package:faker/faker.dart';
 import 'package:flutter_styled_toast/flutter_styled_toast.dart';
-import 'package:zego_uikit/zego_uikit.dart';
 import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
 
 // Project imports:
@@ -13,7 +12,7 @@ import 'constants.dart';
 import 'login_service.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<StatefulWidget> createState() => HomePageState();
@@ -178,7 +177,7 @@ class HomePageState extends State<HomePage> {
         }
 
         var userID = errorInvitees.elementAt(index);
-        userIDs += userID + ' ';
+        userIDs += '$userID ';
       }
       if (userIDs.isNotEmpty) {
         userIDs = userIDs.substring(0, userIDs.length - 1);

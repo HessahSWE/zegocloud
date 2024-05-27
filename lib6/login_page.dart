@@ -10,7 +10,7 @@ import 'login_service.dart';
 import 'util.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+  const LoginPage({super.key});
 
   @override
   State<StatefulWidget> createState() => LoginPageState();

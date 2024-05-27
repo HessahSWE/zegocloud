@@ -13,7 +13,7 @@ import 'constants.dart';
 import 'login_service.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<StatefulWidget> createState() => HomePageState();
@@ -178,7 +178,7 @@ class HomePageState extends State<HomePage> {
         }
 
         var userID = errorInvitees.elementAt(index);
-        userIDs += userID + ' ';
+        userIDs += '$userID ';
       }
       if (userIDs.isNotEmpty) {
         userIDs = userIDs.substring(0, userIDs.length - 1);

@@ -17,7 +17,7 @@ class PageRouteNames {
 
 class PageParam {
   static const String localUserID = 'local_user_id';
-  static const String call_id = 'call_id';
+  static const String callId = 'call_id';
 }
 
 /// Note that the userID needs to be globally unique,
