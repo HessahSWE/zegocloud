@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 // Project imports:
 
 
-const int yourAppID = 719806833;
-const String yourAppSign = "6fd5a112f112f1ac1c007f9b8ff64ae2c1871824982d3a0a4ca368e81e3f609c" ;
+const int yourAppID = 0;
+const String yourAppSign = "" ;
 
 class PageRouteNames {
   static const String login = '/login';

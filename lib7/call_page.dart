@@ -22,8 +22,8 @@ class CallPageState extends State<CallPage> {
 
     return SafeArea(
       child: ZegoUIKitPrebuiltCall(
-  appID: 719806833,
-     appSign: "6fd5a112f112f1ac1c007f9b8ff64ae2c1871824982d3a0a4ca368e81e3f609c" ,
+  appID: 0,
+     appSign: "" ,
         userID: currentUser.id,
         userName: currentUser.name,
         callID: callID,
